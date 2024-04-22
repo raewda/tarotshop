@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/bg6.jpg);
+  }
+  
+  #wrapper {
+      width:50%;
+      margin:0 auto;
+  }
+  
+  
+  #game {
+      width: 100%;
+  }
+  .but {
+    position: absolute; 
+    padding: 0px;
+    left: 50%; 
+    top: 40%; 
+    transform: translate(-50%, -50%); 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 26px;
+    text-align: center;
+    margin: 0 auto;
+    width: 350px;
+    height: 50px;
+    font-family: 'Bebas Neue', serif;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .but2 {
+    position: absolute; 
+    padding: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 26px;
+    text-align: center;
+    margin: 0 auto;
+    width: 150px;
+    height: 350px;
+    font-family: 'Bebas Neue', serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .but3 {
+    position: absolute; 
+    padding: 0px;
+    left: 50%; 
+    top: 40%; 
+    transform: translate(-50%, -50%); 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+    width: 50px;
+    height: 550px;
+    font-family: 'Bebas Neue', serif;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .but4 {
+    position: absolute; 
+    padding: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 26px;
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;
+    font-family: 'Bebas Neue', serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .cd{
+    position: absolute;
+    text-align: center;
+    left: 45%; 
+    top: 70%; 
+    font-family: 'Bebas Neue', serif;
+    color: #ffffff;
+    font-weight: bold;
+  }

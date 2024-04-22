@@ -1,0 +1,331 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', serif;
+}
+
+a {
+    text-decoration: none;
+  }
+
+body {
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #000000;
+}
+
+.header {
+    margin: 0 auto;
+    background: url(../img/bg5.png) no-repeat center;
+    padding: 3%;
+    height: 960px;
+    z-index: 9;
+    object-fit: fill;
+    background-size: cover;
+}
+
+.header-wrapper {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    max-width: 55px;
+}
+
+.navigation {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    gap: 4%;
+}
+
+.nav-item {
+    font-size: 90%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-item:hover,
+.nav-item:active {
+    font-size: 90%;
+    color: #FFB548;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-links {
+    display: flex;
+    gap: 20%;
+}
+
+.link-item {
+    width: 50%;
+    max-width: 31px;
+}
+
+.header-content {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.main-text {
+    color: white;
+    font-size: 500%;
+    display: flex;
+}
+
+.main-subtitle {
+    color: white;
+    font-size: 180%;
+    margin-top: -4%;
+}
+
+.buy-btn {
+    color: black;
+    background-color: #FFB548;
+    border: none;
+    border-radius: 5px;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 3% 7%;
+    margin-top: 5%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer-logo {
+    width: 10%;
+    max-width: 55px;
+}
+
+.footer-group-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+.footer-nav-item {
+    font-size: 80%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-soc {
+    display: flex;
+    width: 5%;
+    justify-content: space-between;
+    gap: 10%
+}
+
+.footer-soc-item {
+    max-width: 24px;
+}
+
+.stick {
+    width: 95%;
+    height: 1px;
+    background-color: #ffffff2d;
+    margin: 1% auto;
+}
+
+.footer-group-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 1% auto;
+}
+
+.footer-text {
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.copyright {
+    color: #ffffff5c;
+    font-weight: 400;
+}
+
+.reviews-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5%;
+    align-items: center;
+    width: 400%;
+    margin: 0 2%;
+}
+
+.reviews-text_info{
+    color: white;
+    display: flex;
+    font-size: 220%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5%;
+    align-items: center;
+    width: 1600%;
+    margin: 0 2%;
+}
+.reviews-info {
+    margin-top: 5%;
+    display: flex;
+    width: 80%;
+    background-color: #000000da;
+    border-radius: 30px;
+    padding: 5% 7%;
+}
+.reviews-img {
+    max-width: 250px;
+}
+.reviews-info-text-fio {
+    color: white;
+    display: flex;
+    font-size: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5%;
+    align-items: center;
+    width: 200%;
+    margin: 1% 10%;
+}
+.reviews-info-text-review {
+    color: white;
+    display: flex;
+    font-size: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5%;
+    align-items: center;
+    width: 200%;
+    margin: 1% 10%;
+}
+
+.input-and-btn {
+    display: flex;
+    gap: 5%;
+}
+
+.reviews-papper {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.075);
+    border: none;
+    border-radius: 5px;
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 3% 7%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.name-papper {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.075);
+    border: none;
+    border-radius: 5px;
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 3% 7%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.sub-now-btn {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: #FFB548;
+    border: none;
+    border-radius: 5px;
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 3% 7%;
+    margin-top: 5%;
+}
+
+.sub-now-btn:active {
+    background-color: #af7e35;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

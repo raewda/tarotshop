@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "name": "the Tower",
+        "price": 1000,
+        "discount": "10",
+        "img": "../img/карта9.jpg",
+        "textcard": "The Tower card in Tarot is a powerful symbol of disaster, upheaval, and sudden change. Its imagery typically portrays a tall tower being struck by lightning, resulting in chaos and devastation. This card serves as a stark reminder that life can throw unexpected challenges our way, forcing us to reevaluate our beliefs and foundations."
+    },
+    {
+        "id": 2,
+        "name": "the Devil",
+        "price": 10000,
+        "discount": "10",
+        "img": "../img/карта8.jpg",
+        "textcard": "The Devil tarot card suggests feelings of obsession, addiction, and entrapment. It can signify a sense of helplessness due to external forces or circumstances. However, it reminds you that you're responsible for your actions, and your perceived constraints are often self-imposed. You have the power to break free from negativity and regain control of your life, despite feeling overwhelmed."
+    },
+    {
+        "id": 3,
+        "name": "the World",
+        "price": 1500,
+        "discount": "10",
+        "img": "../img/карта6.jpg",
+        "textcard": "The World tarot card simply means the world at your feet. The card carries a profound message that echoes the notion that we are architects of our own reality. The World tarot card symbolizes the power we possess to craft our personal worlds exactly as we envision them. Its appearance in a reading is a blessing, indicating that the universe is poised to offer opportunities, and it is up to us to seize them."
+    },
+    {
+        "id": 4,
+        "name": "the Chariot",
+        "price": 500,
+        "discount": "2",
+        "img": "../img/карта7.jpg",
+        "textcard": "The Chariot card in the tarot represents determination, success, and control. When it appears upright, it signifies that you're on the right path and should persevere in your endeavours. "
+    },
+    {
+        "id": 5,
+        "name": "the Emperor",
+        "price": 2000,
+        "discount": "20",
+        "img": "../img/карта10.jpg",
+        "textcard": "The Emperor card in the tarot holds insights into different aspects of life, including love, career, challenges, and more. This card symbolizes leadership, power, and authority. This card signifies responsibility, courage, and intelligence. Sometimes, it can even symbolize a real person in your life, like a corporate executive, a political leader, or a respected warrior."
+    },
+    {
+        
+        "id": 6,
+        "name": "the Empress",
+        "price": 5000,
+        "discount": "10",
+        "img": "../img/карта1.jpg",
+        "textcard": "The Empress signifies abundance. You are surrounded by life’s pleasures and luxuries and have everything you need to live a comfortable lifestyle. You are in a period of growth, in which all you have dreamed of is now coming to fruition. When The Empress appears in your Tarot readings, take a moment to reflect on the bounty that surrounds you and offer gratitude for all you have created so you can continue to build on this energy and create even more abundance in your life."
+    },
+    {
+        
+        "id": 7,
+        "name": "the Temperance",
+        "price": 8000,
+        "discount": "30",
+        "img": "../img/карта4.jpg",
+        "textcard": "This card calls on you to remain calm, even when life feels stressful or frantic. Maintain an even temperament and manage your emotions. You have learned to keep composed in stressful situations. Little things don’t get to you, thanks to your seemingly abundant source of patience. Your respect for balance and tranquillity is what will help you achieve and experience fulfilment in your life."
+    },
+    {
+        
+        "id": 8,
+        "name": "the High Rriestess",
+        "price": 20000,
+        "discount": "1",
+        "img": "../img/карта3.jpg",
+        "textcard": "The main meaning of the High Priestess Tarot card is a mystery. It is about what is hidden in the depths of our subconscious, about the ability to use intuition and the gift of foresight, to anticipate the development of events, to understand the most insignificant hints of the universe and act in accordance with them. The card symbolizes universal wisdom, patience, self-knowledge, peace, tranquility, regularity, reasonableness, magic, kindness and, of course, intuition."
+    }
+]

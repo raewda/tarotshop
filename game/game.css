@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+padding: 0;
+margin: 0;
+background-image: url(../img/bg6.jpg);
+}
+
+#wrapper {
+    width:50%;
+    margin:0 auto;
+}
+
+
+#game {
+    width: 100%;
+}
+
+.but2 {
+  position: absolute; 
+  padding: 0px;
+  left: 45%; 
+  top: 60%; 
+  transform: translate(-50%, -50%);
+  border: none; 
+  cursor: pointer; 
+  font-size: 120px;
+  text-align: center;
+  margin: 0 auto;
+  width: 150px;
+  height: 350px;
+  font-family: 'Bebas Neue', serif;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.but-2:hover,
+.but-2:active {
+  position: absolute; 
+  padding: 0px;
+  left: 45%; 
+  top: 60%; 
+  transform: translate(-50%, -50%);
+  border: none; 
+  cursor: pointer; 
+  font-size: 160px;
+  text-align: center;
+  margin: 0 auto;
+  width: 150px;
+  height: 350px;
+  font-family: 'Bebas Neue', serif;
+  color: #FFB548;
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  justify-content:center;
+  width: 100%;
+  gap: 15%;
+}
+
+.nav-item {
+  font-size: 150%;
+  color: white;
+  font-family: 'Bebas Neue', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-item:hover,
+.nav-item:active {
+  font-size: 150%;
+  color: #FFB548;
+  font-family: 'Bebas Neue', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
